@@ -31,7 +31,6 @@ while 1:
 
 	cv2.imshow('Live feed', img)
 	cv2.imshow('Live feed2', dilation)
-	cv2.createTrackbar("Set Threshold Val", "Live feed", threh_val, 200, nothing)
 
 	if cv2.waitKey(1) & 0xFF == ord('q'):
 		break
