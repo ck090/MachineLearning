@@ -8,7 +8,8 @@ def nothing(x):
 print('Hello Welcome!!')
 cap = cv2.VideoCapture(0)
 cap.set(3, 200)
-cap.set(4, 300)
+cap.set(4, 400)
+cap.set(5, 500)
 
 while 1:
 	ret, img = cap.read()
