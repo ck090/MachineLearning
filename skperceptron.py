@@ -13,6 +13,7 @@ clf = Perceptron()
 #fitting the classified data acc to X, Y
 clf = clf.fit(X, Y)
 
+#Well
 print "Enter three numbers the Height, Weight and ShoeSize"
 number = raw_input()
 numbers = map(int, number.split())
